@@ -22,7 +22,7 @@ namespace EAcademy
              routes.MapRoute(
              name: "Register",
 /*"Account/LogIn"*/  url: "{controller}/{action}/{id}",
-             defaults: new { controller = "Login", action = "Register" }
+             defaults: new { controller = "Login", action = "Registerr" }
                );
           }
     }
